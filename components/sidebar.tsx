@@ -10,7 +10,7 @@ const navItems = {
     name: 'home',
     x: 0,
     y: 0,
-    w: '64px',
+    w: '65px',
   },
   '/about': {
     name: 'about',
@@ -20,21 +20,21 @@ const navItems = {
   },
   '/books': {
     name: 'books',
-    x: 127,
+    x: 128,
     y: 69,
-    w: '56px',
-  },
-  '/arts': {
-    name: 'arts',
-    x: 182,
-    y: 104,
-    w: '56px',
+    w: '65px',
   },
   '/blogs': {
     name: 'blogs',
-    x: 245,
-    y: 139,
-    w: '56px',
+    x: 192,
+    y: 104,
+    w: '65px',
+  },
+  '/arts': {
+    name: 'arts',
+    x: 255,
+    y: 135,
+    w: '60px',
   },
   // '/guestbook': {
   //   name: 'guestbook',
