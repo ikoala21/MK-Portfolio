@@ -5,14 +5,15 @@ export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm a developer building software one mistake at a time. I work at NCR Corp as a Software Engineer.
+      Hey, I'm a software developer and an artist. I work at NCR Corporation as a Software Engineer.
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      When I'm not sleeping, I'm probably shitposting or making mistakes. I also love to travel and explore new places.
+      When I'm not working, I'm probably finding my next read or maintaining my duolingo streak.
+      I also love exploring good food places.
     </>
   );
 };

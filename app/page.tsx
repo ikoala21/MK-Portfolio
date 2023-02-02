@@ -16,7 +16,7 @@ export const metadata = {
     title: 'Manasa',
     description: 'Developer, writer, and creator.',
     url: 'https://leerob.io',
-    siteName: 'Manasa',
+    siteName: 'Manasa | Personal Website',
     images: [
       {
         url: 'https://leerob.io/og.jpg',

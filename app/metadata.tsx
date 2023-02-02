@@ -1,6 +1,6 @@
 export default {
   title: {
-    default: 'Manasa',
+    default: 'MK | Personal Website',
     template: '%s | Manasa',
   },
   robots: {

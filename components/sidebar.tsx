@@ -18,12 +18,24 @@ const navItems = {
     y: 35,
     w: '65px',
   },
-  // '/blog': {
-  //   name: 'blog',
-  //   x: 127,
-  //   y: 69,
-  //   w: '56px',
-  // },
+  '/books': {
+    name: 'books',
+    x: 127,
+    y: 69,
+    w: '56px',
+  },
+  '/arts': {
+    name: 'arts',
+    x: 182,
+    y: 104,
+    w: '56px',
+  },
+  '/blogs': {
+    name: 'blogs',
+    x: 245,
+    y: 139,
+    w: '56px',
+  },
   // '/guestbook': {
   //   name: 'guestbook',
   //   x: 182,
@@ -57,19 +69,19 @@ function Logo() {
             type: 'spring',
             stiffness: 50,
           }}
-          d="M86 0L48 1.52588e-05V48H86L86 47.5001L61.2205 24.4558L86 3.99062e-05L86 0Z"
+          d="M36 0H57.865C58.7128 0 59.176 0.988857 58.6332 1.64018L45.5335 17.3598C45.2244 17.7307 45.2244 18.2693 45.5335 18.6402L58.6332 34.3598C59.176 35.0111 58.7128 36 57.865 36H36V0Z"
           clipRule="evenodd"
           fill="#56CCF2"
         />
         <motion.path
-          initial={{ x: -200, opacity: 0 }}
+          initial={{ x: -20, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{
             duration: 0.5,
             type: 'spring',
             stiffness: 50,
           }}
-          d="M0 0L0 48L48 48L48 1.71655e-06L24.4558 23.6903L0 0Z"
+          d="M0 2.41422C0 1.52331 1.07714 1.07714 1.70711 1.70711L17.2929 17.2929C17.6834 17.6834 18.3166 17.6834 18.7071 17.2929L36 0V36H1C0.447716 36 0 35.5523 0 35V2.41422Z"
           clipRule="evenodd"
           fill="#18A0FB"
         />
