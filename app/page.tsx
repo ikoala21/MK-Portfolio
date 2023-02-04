@@ -15,11 +15,11 @@ export const metadata = {
   openGraph: {
     title: 'Manasa',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Manasa | Personal Website',
+    url: 'https://mksighs.dev',
+    siteName: 'Manasa',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: 'https://mksighs.dev/og.jpg',
         width: 1920,
         height: 1080,
       },
