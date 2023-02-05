@@ -28,7 +28,7 @@ export default function AboutPage() {
         </p>
         
         <p>
-         While you are here, do check out my 2023 Reading List and arts collection. Thank you for visiting my page. 
+         Thank you for visiting my page. 
         </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a

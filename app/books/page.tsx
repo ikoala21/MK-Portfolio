@@ -1,17 +1,9 @@
 export default function BooksPage() {
  return (
    <section>
-     <h1 className="font-bold text-3xl font-serif">2023 Reading List</h1>
-     
+     <h1 className="font-bold text-3xl font-serif">2023 Reading List</h1><br />
+     <p> and my favourite line from each book...</p>
      <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
-       <p>
-       My reading for last year mostly considered easy books that I could finish in one sitting. 
-       </p>
-       <p>
-       This year will likely read fewer books but deeper content,
-       I dont have specific target. Averaging one or two per month is fairly manageable for me,
-       so that's probably where we will end up.
-       </p>
        <hr />
        <ol>
            <li><h5><b>Tomorrow, and Tomorrow, and Tomorrow</b> by <i>Gabrielle Zevin</i></h5></li>
