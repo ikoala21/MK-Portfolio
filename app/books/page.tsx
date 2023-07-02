@@ -18,6 +18,12 @@ export default function BooksPage() {
                I want to be the kind of person who can walk inside the vast darkness and 
                find the one fragment of sunlight I can linger in for along time.
                <br></br>Some day, I will."</i></p>
+           <li><h5><b>The Midnight Library </b> by <i>Matt Haig</i></h5></li>
+           <p> <i>“Maybe that’s what all lives were, though. Maybe even the most seemingly perfectly intense or worthwhile lives ultimately felt the same. Acres of disappointment and monotony and hurts and rivalries but with flashes of wonder and beauty. Maybe that was the only meaning that mattered. To be the world, witnessing itself.” </i></p>
+           <li><h5><b>The Song of Achilles</b> by <i>Madeline Miller</i></h5></li>
+           <p> <i>“Have you no more memories?' I am made of memories.” </i></p>
+           <li><h5><b>Hyperbole and a half</b> by <i>Allie Brosh</i></h5></li>
+           <p> <i>“And even if everything still seems like hopeless bullshit, maybe it’s just pointless bullshit or weird bullshit or possibly not even bullshit.”</i></p>  
        </ol>
      </div>
    </section>

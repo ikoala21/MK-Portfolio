@@ -22,14 +22,11 @@ export default function AboutPage() {
          microservices, CI/CD, or about programming languages like Python or Go. 
         </p>
         <p>
-         I'm very passionate about many creative persuits, which includes music, art,
+         I'm passionate about many creative persuits, which includes music, art,
          books, cooking, cats and of course, coding. These combination of interests is what
          makes me feel alive and pushes me to think differently. 
         </p>
         
-        <p>
-         Thank you for visiting my page. 
-        </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a
             rel="noopener noreferrer"
