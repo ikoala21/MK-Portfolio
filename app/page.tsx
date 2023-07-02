@@ -50,10 +50,7 @@ export default async function HomePage() {
           priority
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
-          <p className="flex items-center gap-2">
-            <TwitterIcon />
-            {`${tweetCount.toLocaleString()} tweets all time`}
-          </p>
+
           <a
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"

@@ -32,7 +32,7 @@ export async function getTweetCount() {
   );
 
   const { data } = await response.json();
-  return Number(data.public_metrics.tweet_count);
+  return 0;
 }
 
 export const getStarCount = cache(async () => {
