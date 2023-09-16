@@ -12,8 +12,8 @@ export default function AboutPage() {
       
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
         <p>
-        Hi there, My name is Manasa Kalaga and I'm a software developer. 
-        I'm from Hyderabad, India and currently working at NCR Corporation.
+        Hi visitor, My name is Manasa and I'm a software developer. 
+        I'm from Hyderabad, India.
         </p>
         <hr />
         <p>

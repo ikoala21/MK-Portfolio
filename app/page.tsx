@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
+import { getBlogViews, getStarCount } from 'lib/metrics';
 import {
   ArrowIcon,
   GitHubIcon,
@@ -30,9 +30,7 @@ export const metadata = {
 };
 
 export default async function HomePage() {
-  const [tweetCount] = await Promise.all([
-    getTweetCount()
-  ]);
+
 
   return (
     <section className="">

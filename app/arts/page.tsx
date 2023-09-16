@@ -1,27 +1,54 @@
+import React from 'react';
+
 export default function ArtsPage() {
-    return (
-      <section>
-        <h1 className="font-bold text-3xl font-serif">The Ichi-go Ichi-e Project</h1>
-        <br></br>
-        <p> Coming soon! 💖</p>
-        
-        <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
+  return (
+    <section>
+      <h1 className="font-bold text-3xl font-serif">The Ichi-go Ichi-e Project</h1>
+      <br />
+
+      <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200 text-center">
         <hr />
-        {/* <p><b> Concept of Motivation</b></p>
-        <p><i>
-        Every art piece, just like many life situations, constitutes a unique and unrepeatable moment. 
-        Each feeling is different every time, and one who makes it will share an instant that will never happen again. 
-        Each experience is an “Ichi-go ichi-e moment,” that one can treasure as something that occurs "once in a lifetime". </i></p>
-        
-        <p><b> Prologue</b></p>
-          <p><i>
-          Its not the beginnings or the end that shapes us the person we are,
-          its the in-betweens… because they are the roller-coaster of emotions - sad, happy, anxious, depressed, heartbroken, hope. 
-          And forever the question of what-ifs, all these emotions portray the beauty of the process, and the time it takes. 
-          To able to cherish those in-betweens is all my art collection will be about - “ichi-go ichi-e”. 
-          </i></p> */}
+
+        <div className="flex flex-wrap">
+          <div className="mb-4 mr-4 w-2/3 sm:w-1/3">
+            <img
+              src="/art01.jpg"
+              alt="Art Image1"
+              className="w-full h-auto rounded-lg transform hover:scale-105 transition-transform duration-200 object-cover"
+              style={{ width: '100%', height: '100%' }}
+            />
+          </div>
+
+          <div className="mb-4 w-2/3 sm:w-1/3">
+            <img
+              src="/art02.jpg"
+              alt="Art Image2"
+              className="w-full h-auto rounded-lg transform hover:scale-105 transition-transform duration-200 object-cover"
+              style={{ width: '100%', height: '100%' }}
+            />
+          </div>
         </div>
-      </section>
-    );
-   }
-   
+
+        <div className="flex flex-wrap">
+          <div className="mb-4 mr-4 w-1/3 sm:w-1/3">
+            <img
+              src="/art03.jpg"
+              alt="Art Image3"
+              className="w-full h-auto rounded-lg transform hover:scale-105 transition-transform duration-200 object-cover"
+              style={{ width: '100%', height: '100%' }}
+            />
+          </div>
+
+          <div className="mb-4 w-2/3 sm:w-1/3">
+            <img
+              src="/art04.jpg"
+              alt="Art Image4"
+              className="w-full h-auto rounded-lg transform hover:scale-105 transition-transform duration-200 object-cover"
+              style={{ width: '100%', height: '100%' }}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
