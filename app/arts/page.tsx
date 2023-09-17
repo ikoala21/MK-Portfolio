@@ -134,6 +134,16 @@ export default function ArtsPage() {
               onClick={() => openModal('/art13.jpg')}
             />
           </div>
+
+          <div className="mb-4">
+            <img
+              src="/art14.jpg"
+              alt="Art Image14"
+              className="w-full h-auto rounded-lg transform hover:scale-105 transition-transform duration-200 object-cover cursor-pointer"
+              style={{ width: '100%', height: '100%' }}
+              onClick={() => openModal('/art14.jpg')}
+            />
+          </div>
         </div>
       </div>
 
