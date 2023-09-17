@@ -36,6 +36,12 @@ const navItems = {
     y: 135,
     w: '60px',
   },
+  '/resume': {
+    name: 'resume',
+    x: 319,
+    y: 169,
+    w: '72px',
+  },
   // '/guestbook': {
   //   name: 'guestbook',
   //   x: 182,
