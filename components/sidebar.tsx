@@ -34,13 +34,13 @@ const navItems = {
     name: 'arts',
     x: 255,
     y: 135,
-    w: '60px',
+    w: '50px',
   },
   '/resume': {
     name: 'resume',
-    x: 319,
-    y: 169,
-    w: '72px',
+    x: 310,
+    y: 172,
+    w: '70px',
   },
   // '/guestbook': {
   //   name: 'guestbook',
