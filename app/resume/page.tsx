@@ -3,7 +3,7 @@
 import React from 'react';
 
 const ResumePage = () => {
-  const pdfUrl = 'https://docs.google.com/document/d/e/2PACX-1vT0d4-ZT_yTZ0lWDi5LsGw1cxjNq-IelDRiWrdCdNAj-L3prw8w8a04jt_FUUzBk8PVuP_EbdJaB1ic/pub';
+  const pdfUrl = '/resume.pdf';
 
   const openPdfInNewTab = () => {
     window.open(pdfUrl, '_blank');
